@@ -9,15 +9,16 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Gabriel Henrique Santos de Assis
+- Matrícula: 926438
+- Proposta de projeto escolhida: Página sobre alguns mangás
+- Breve descrição sobre seu projeto: Página contendo algumas informações sobre mangás.
 
 **Print da tela com a implementação**
 
 << Coloque aqui uma breve explicação da implementação feita nesta etapa>>
+- Gráfico sobre os gêneros dos mangas que estão na página
 
 <<  COLOQUE A IMAGEM DA TELA 1 AQUI >>
-
+![alt text](public/img/gráfico.png)
 <<  COLOQUE A IMAGEM DA TELA 2 AQUI >>

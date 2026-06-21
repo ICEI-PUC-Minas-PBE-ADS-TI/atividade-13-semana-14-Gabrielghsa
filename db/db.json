@@ -1,18 +1,190 @@
 {
-  "usuarios": [
+  "mangas": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Bleach",
+      "descricaoCurta": "Ichigo Kurosaki conhece uma Shinigami e tem sua vida transformada.",
+      "descricaoCompleta": "No primeiro capítulo, Ichigo Kurosaki, um estudante capaz de ver espíritos, encontra Rukia Kuchiki, uma Shinigami encarregada de combater Hollows. Após um ataque à sua família, Ichigo recebe os poderes de Rukia para protegê-los.",
+      "imagem": "img/bleach.jpg",
+      "categoria": "Ação",
+      "nota": 10,
+      "tags": [
+        "Shinigami",
+        "Sobrenatural",
+        "Ação",
+        "Ichigo"
+      ],
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Naruto",
+      "descricaoCurta": "Naruto sonha em se tornar Hokage e conquistar o respeito da vila.",
+      "descricaoCompleta": "O primeiro capítulo apresenta Naruto Uzumaki, um jovem ninja rejeitado pelos moradores da Vila da Folha. Após roubar um pergaminho proibido e descobrir a verdade sobre a Raposa de Nove Caudas selada dentro dele, Naruto demonstra seu potencial e determinação.",
+      "imagem": "img/naruto.jpg",
+      "categoria": "Ação",
+      "nota": 10,
+      "tags": [
+        "Ninja",
+        "Hokage",
+        "Raposa de Nove Caudas",
+        "Aventura"
+      ],
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "nome": "JoJo's Bizarre Adventure",
+      "descricaoCurta": "O início da rivalidade entre Jonathan Joestar e Dio Brando.",
+      "descricaoCompleta": "O primeiro capítulo apresenta Jonathan Joestar e a chegada de Dio Brando à família Joestar. A convivência entre os dois rapidamente se transforma em uma intensa rivalidade que moldará toda a história da obra.",
+      "imagem": "img/jojo.jpg",
+      "categoria": "Aventura",
+      "nota": 9,
+      "tags": [
+        "Jonathan",
+        "Dio",
+        "Família Joestar",
+        "Drama"
+      ],
+      "destaque": false
+    },
+    {
+      "id": 4,
+      "nome": "Neon Genesis Evangelion",
+      "descricaoCurta": "Shinji Ikari é convocado para pilotar uma arma gigante contra misteriosos inimigos.",
+      "descricaoCompleta": "No primeiro capítulo, Shinji Ikari chega a Tóquio-3 após ser chamado por seu pai, Gendo Ikari. Em meio ao ataque de uma criatura conhecida como Anjo, ele descobre a existência dos Evangelions e é pressionado a pilotar a Unidade-01 para defender a humanidade.",
+      "imagem": "img/evangelion.jpg",
+      "categoria": "Ficção Científica",
+      "nota": 8,
+      "tags": [
+        "Mecha",
+        "Shinji",
+        "Anjos",
+        "NERV"
+      ],
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "nome": "Bocchi the Rock!",
+      "descricaoCurta": "Uma garota tímida sonha em tocar em uma banda.",
+      "descricaoCompleta": "O primeiro capítulo apresenta Hitori Gotou, apelidada de Bocchi, uma jovem extremamente introvertida que aprende guitarra na esperança de fazer amigos e integrar uma banda.",
+      "imagem": "img/bocchi.jpg",
+      "categoria": "Comédia",
+      "nota": 9,
+      "tags": [
+        "Música",
+        "Banda",
+        "Comédia",
+        "Slice of Life"
+      ],
+      "destaque": false
+    },
+    {
+      "id": 6,
+      "nome": "Attack on Titan",
+      "descricaoCurta": "A humanidade vive cercada por muralhas para se proteger dos Titãs.",
+      "descricaoCompleta": "O primeiro capítulo apresenta Eren Yeager, Mikasa Ackerman e Armin Arlert. A aparição de um Titã colossal rompe a muralha e provoca uma tragédia que muda o destino dos protagonistas.",
+      "imagem": "img/aot.jpg",
+      "categoria": "Ação",
+      "nota": 9.5,
+      "tags": [
+        "Titãs",
+        "Eren",
+        "Muralhas",
+        "Sobrevivência"
+      ],
+      "destaque": true
+    },
+    {
+      "id": 7,
+      "nome": "Gintama",
+      "descricaoCurta": "Samurais tentam sobreviver em um Japão dominado por alienígenas.",
+      "descricaoCompleta": "O capítulo inicial apresenta o mundo de Gintama, onde alienígenas chamados Amanto controlam o Japão. A obra mistura humor e crítica social enquanto introduz Gintoki Sakata.",
+      "imagem": "img/gintama.jpg",
+      "categoria": "Comédia",
+      "nota": 10,
+      "tags": [
+        "Samurai",
+        "Amanto",
+        "Humor",
+        "Gintoki"
+      ],
+      "destaque": false
+    },
+    {
+      "id": 8,
+      "nome": "Fullmetal Alchemist",
+      "descricaoCurta": "Dois irmãos alquimistas procuram uma forma de recuperar seus corpos.",
+      "descricaoCompleta": "No primeiro capítulo, Edward e Alphonse Elric chegam à cidade de Lior. A história introduz os conceitos de alquimia e revela gradualmente a tragédia causada pela tentativa de ressuscitar sua mãe.",
+      "imagem": "img/fma.jpg",
+      "categoria": "Fantasia",
+      "nota": 10,
+      "tags": [
+        "Alquimia",
+        "Edward",
+        "Alphonse",
+        "Fantasia"
+      ],
+      "destaque": true
+    },
+    {
+      "id": 9,
+      "nome": "Frieren",
+      "descricaoCurta": "Uma elfa maga reflete sobre o significado do tempo e das relações humanas.",
+      "descricaoCompleta": "O primeiro capítulo mostra Frieren após a derrota do Rei Demônio. Décadas depois, enquanto seus antigos companheiros envelhecem, ela percebe o valor dos laços humanos e inicia uma nova jornada.",
+      "imagem": "img/frieren.jpg",
+      "categoria": "Fantasia",
+      "nota": 10,
+      "tags": [
+        "Elfa",
+        "Magia",
+        "Jornada",
+        "Drama"
+      ],
+      "destaque": true
+    },
+    {
+      "id": 10,
+      "nome": "Hunter x Hunter",
+      "descricaoCurta": "Gon decide se tornar Hunter para encontrar seu pai.",
+      "descricaoCompleta": "No primeiro capítulo, Gon Freecss vive tranquilamente na Ilha da Baleia até descobrir mais sobre seu pai, Ging. Motivado por essa revelação, ele decide participar do Exame Hunter.",
+      "imagem": "img/hxh.jpg",
+      "categoria": "Aventura",
+      "nota": 8,
+      "tags": [
+        "Hunter",
+        "Gon",
+        "Exame Hunter",
+        "Aventura"
+      ],
+      "destaque": true
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Ação"
+    },
+    {
+      "id": 2,
+      "nome": "Aventura"
+    },
+    {
+      "id": 3,
+      "nome": "Fantasia"
+    },
+    {
+      "id": 4,
+      "nome": "Mistério"
+    },
+    {
+      "id": 5,
+      "nome": "Comédia"
+    },
+    {
+      "id": 6,
+      "nome": "Ficção Científica"
     }
   ]
 }
