@@ -20,5 +20,6 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 - Gráfico sobre os gêneros dos mangas que estão na página
 
 <<  COLOQUE A IMAGEM DA TELA 1 AQUI >>
-![alt text](public/img/gráfico.png)
+![alt text](public/img/home.jpg.png)
 <<  COLOQUE A IMAGEM DA TELA 2 AQUI >>
+![alt text](public/img/gráfico.png)
